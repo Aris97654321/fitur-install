@@ -8,7 +8,7 @@ echo "Connecting..."
 sleep 0.2
 echo "Checking Permision..."
 sleep 0.3
-CEK=`curl -s https://raw.githubusercontent.com/Aris97654321/fitur-install/master/auth.html`;
+CEK=`curl -s https://arisabdulaziz23.000webhostapp.com/auth.html`;
 if [ "$CEK" != "MEMBER" ]; then
 		echo -e "${red}Permission Denied!${NC}";
         echo $CEK;
